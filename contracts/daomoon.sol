@@ -1,5 +1,5 @@
 /*
- * Copyright © 2020 reflect.finance. ALL RIGHTS RESERVED.
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 pragma solidity ^0.6.2;
@@ -26,8 +26,8 @@ contract REFLECT is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'reflect.finance';
-    string private _symbol = 'RFI';
+    string private _name = 'daomoon.finance';
+    string private _symbol = 'dMoon';
     uint8 private _decimals = 9;
 
     constructor () public {
